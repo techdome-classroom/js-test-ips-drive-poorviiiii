@@ -1,3 +1,5 @@
+//Time complexity  O(n)
+//space complexity O(1)
 function smallestMissingPositiveInteger(nums) {
   let n=nums.length;
   let present=new Array(n+1);
